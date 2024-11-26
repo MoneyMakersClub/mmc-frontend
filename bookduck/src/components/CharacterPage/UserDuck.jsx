@@ -25,7 +25,7 @@ const UserDuck = () => {
         <ambientLight intensity={0.7} />
         <directionalLight position={[0, 5, 5]} />
         <DuckModel />
-        {/* <HairBand /> */}
+        <HairBand />
         <OrbitControls
           enablePan={true}
           enableRotate={true}

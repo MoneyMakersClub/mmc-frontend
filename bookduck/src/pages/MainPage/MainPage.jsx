@@ -9,6 +9,7 @@ import ReadingSpaceComponent from "../../components/MainPage/ReadingSpaceCompone
 import right from "../../assets/common/right-yellow.svg";
 import mainDuck from "../../assets/common/main-duck.svg";
 import BookCountDisplay from "../../components/MainPage/BookCountDisplay";
+import UserDuck from "../../components/CharacterPage/UserDuck";
 import { isTokenExpired } from "../../api/oauth";
 
 const MainPage = () => {
@@ -78,7 +79,10 @@ const MainPage = () => {
           </span>
           <img src={right} alt="arrow" />
         </button>
-        <img src={mainDuck} className="absolute top-[11.42rem] left-[9rem]" />
+        {/* <img src={mainDuck} className="absolute top-[11.42rem] left-[9rem]" /> */}
+        <div className="absolute top-[11.42rem] left-[9rem]">
+          <UserDuck />
+        </div>
         <ReadingSpaceComponent
           setColor={setColor}
           setIsNavBar={setIsNavBar}
