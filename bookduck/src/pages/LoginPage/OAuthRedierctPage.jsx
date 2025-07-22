@@ -39,7 +39,7 @@ const OAuthRedirectPage = () => {
 
   useEffect(() => {
     readAccessTokenKakao(); // 바로 실행
-    location.reload();
+    // location.reload();
   }, []);
 
   return <SuspenseLoading />;
