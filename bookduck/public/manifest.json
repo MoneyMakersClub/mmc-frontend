@@ -13,11 +13,23 @@
       "src": "/assets/characterPage/babyduck-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/characterPage/babyduck-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "orientation": "portrait",
   "categories": ["education"],
   "dir": "ltr",
-  "lang": "ko"
+  "lang": "ko",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "screenshots": [
+  ],
+  "prefer_related_applications": false
 } 
