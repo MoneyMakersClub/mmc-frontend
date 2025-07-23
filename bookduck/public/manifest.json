@@ -1,21 +1,23 @@
 {
+  "id": "/",
   "name": "BookDuck",
   "short_name": "BookDuck",
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#FFD600",
   "description": "책을 기록하고 공유하는 서비스",
   "icons": [
     {
-      "src": "assets/characterPage/babyduck.glb",
+      "src": "/assets/characterPage/babyduck-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "assets/characterPage/babyduck.glb",
-      "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "orientation": "portrait",
+  "categories": ["education"],
+  "dir": "ltr",
+  "lang": "ko"
 } 
